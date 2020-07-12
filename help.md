@@ -9,9 +9,10 @@
 示例:
 - `/hypixel Peaksol` - 查询 Peaksol 的基本信息
 - `/hypixel iTMG sw` - 查询 iTMG 的 Skywars 统计数据
+- `/hypixel 9gh sb` - 查询 9gh 的 SkyBlock 技能信息
 - `/hypixel hypixel g` - 查询 hypixel 的公会信息
 
-?> **分类**可以是下列之一:<br>- bedwars, bw<br>- skywars, sw<br>- uhc<br>- megawalls, mw<br>- blitzsg, bsg, hungergames<br>- guild, g
+?> **分类**可以是下列之一:<br>- bedwars, bw<br>- skywars, sw<br>- uhc<br>- megawalls, mw<br>- blitzsg, bsg, hungergames<br>- guild, g<br>- skyblock, sb
 
 ## /syuu
 描述: 获取 SyuuNet 的玩家信息或排行榜<br>
