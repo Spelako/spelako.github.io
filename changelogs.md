@@ -1,6 +1,14 @@
 # 更新日志
 此页面包含了 Spelako 的历次更新的内容.
 
+> ### Spelako 1.3.0
+更新时间: 2020/7/23
+- 新增了 Skyblock 拍卖行查询(指令: /hypixel <玩家> sba)
+- 修改了 Skyblock 技能查询方式(指令: /hypixel <玩家> sbs)
+- 修改了部分消息格式
+- 内部优化(Spelako API)
+- 移除了部分从未被使用的功能
+
 > ### Spelako 1.2.0
 更新时间: 2020/7/11
 - 新增了 Hypixel Skyblock 技能查询功能.<br>指令: /hypixel <玩家> sb

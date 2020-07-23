@@ -9,10 +9,26 @@
 示例:
 - `/hypixel Peaksol` - 查询 Peaksol 的基本信息
 - `/hypixel iTMG sw` - 查询 iTMG 的 Skywars 统计数据
-- `/hypixel 9gh sb` - 查询 9gh 的 SkyBlock 技能信息
 - `/hypixel hypixel g` - 查询 hypixel 的公会信息
 
 ?> **分类**可以是下列之一:<br>- bedwars, bw<br>- skywars, sw<br>- uhc<br>- megawalls, mw<br>- blitzsg, bsg, hungergames<br>- guild, g<br>- skyblock, sb
+
+### Skyblock 查询
+#### 主指令
+描述: 查询玩家所有存档, 及 Skyblock 相关查询指令的用法<br>
+用法: `/hypixel <玩家> sb`
+
+#### 查询技能等级
+描述: 查询玩家各技能的等级<br>
+用法: `/hypixel <玩家> sbs [存档名/序号]`<br>
+示例:
+- `/hypixel Rikkawww sbs 2` - 查询 Rikkawww 的第 2 个存档的各技能的等级.
+
+#### 查询拍卖物品
+描述: 查询玩家正在拍卖的所有物品信息<br>
+用法: `/hypixel <玩家> sba [存档名/序号]`<br>
+示例:
+- `/hypixel Peaksol sba Cucumber` - 查询 Peaksol 所在的名为 Cucumber 的存档中正在拍卖的物品信息.
 
 ## /syuu
 描述: 获取 SyuuNet 的玩家信息或排行榜<br>
