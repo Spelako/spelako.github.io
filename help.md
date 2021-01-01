@@ -37,7 +37,7 @@
 - `/syuu user Reviaol` - 查询 Reviaol 的统计数据
 - `/syuu lb s2p2` - 查询 Sharp2Prot2 排行榜
 
-?> **排行榜分类**可以是下列之一:<br>- sharp2prot2, s2p2<br>- archer, bow<br>- nodelay, combo<br>- builduhc, buhc<br>- sumo<br>- spleef
+?> **排行榜分类**可以是下列之一:<br>- sharp2prot2, s2p2<br>- mcsg<br>- octc<br>- goldenapple, gapple<br>- archer, bow<br>- nodelay, combo<br>- soup<br>- builduhc, buhc<br>- debuff<br>- sharp4prot3, s4p3<br>- sumo<br>- axe<br>- spleef<br>- finaluhc<br>- bridge
 
 ## /mojang
 描述: 获取指定玩家的 Mojang 账号信息<br>
@@ -45,13 +45,6 @@
 示例:
 - `/mojang Peaksol` - 使用 ID 查询 Mojang 账号信息
 - `/mojang 2e951afe18f241e1ae021667f39e4f5b` - 使用 UUID 查询 Mojang 账号信息
-
-## /virus
-描述: 查询新型肺炎的实时动态<br>
-用法: `/virus [省份]`<br>
-示例:
-- `/virus 湖北` - 查询湖北省疫情
-- `/virus 美国` - 查询美国疫情
 
 ## /server
 ?> 此命令将在未来可能会被移除

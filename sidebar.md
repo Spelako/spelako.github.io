@@ -2,6 +2,6 @@
   - [指令列表](help.md)
   - [更新日志](changelogs.md)
 
-- **深入 Spelako**
-  - [了解 Spelako 运作方式](howspelakoworks.md)
-  - [搭建运行环境](setup.md)
+- **开发者文档**
+  - [部署 Spelako 运行环境](deploy.md)
+  - [深入 Spelako](howspelakoworks.md) (Todo)
