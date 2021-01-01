@@ -4,4 +4,4 @@
 
 - **开发者文档**
   - [部署 Spelako 运行环境](deploy.md)
-  - [深入 Spelako](howspelakoworks.md) (Todo)
+  - [(Todo) 深入 Spelako](howspelakoworks.md)
