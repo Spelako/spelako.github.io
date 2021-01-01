@@ -49,6 +49,7 @@ http://127.0.0.1/api.php?plain=falseid=user3&msg=/spelako
 ```
 
 如果请求 URL 无误, 服务器将响应如下 JSON 文本:
+
 | 键名 | 注释 |
 | - | - |
 | success | 请求是否成功 (`true` 或 `false`) |
