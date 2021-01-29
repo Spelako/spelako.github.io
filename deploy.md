@@ -1,7 +1,7 @@
 # 部署 Spelako 运行环境
 本指南旨在帮助你自行部署并运行 Spelako. 请确保你拥有 PHP 和 Web 的基础知识.
 
-如果你只希望在命令行使用 Spelako, 你可以查看[如何使用 Spelako CLI](##-如何使用-Spelako-CLI); 如果你希望将 Spelako 部署为网络 API 并被其他应用调用, 你可以查看[如何使用 Spelako API](##-如何使用-Spelako-API).
+如果你只希望在命令行使用 Spelako, 你可以查看**如何使用 Spelako CLI**; 如果你希望将 Spelako 部署为网络 API 并被其他应用调用, 你可以查看**如何使用 Spelako API**.
 
 ## 如何使用 Spelako CLI
 **需求:** PHP 5.6+
@@ -44,8 +44,8 @@ $apiKey = '[在此输入 Hypixel API Key]';
 
 请求 URL 示例:
 ```
-http://localhost/api.php?plain=trueid=1244050218&msg=/help
-http://127.0.0.1/api.php?plain=falseid=user3&msg=/spelako
+http://localhost/api.php?plain=true&id=1244050218&msg=/help
+http://127.0.0.1/api.php?plain=false&id=user3&msg=/spelako
 ```
 
 如果请求 URL 无误, 服务器将响应如下 JSON 文本:
