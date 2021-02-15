@@ -46,15 +46,6 @@
 - `/mojang Peaksol` - 使用 ID 查询 Mojang 账号信息
 - `/mojang 2e951afe18f241e1ae021667f39e4f5b` - 使用 UUID 查询 Mojang 账号信息
 
-## /server
-?> 此命令将在未来可能会被移除
-
-描述: 获取指定地址的 Minecraft 服务器信息<br>
-用法: `/server <地址> [端口]`<br>
-示例:
-- `/server mc.hypixel.net` - 查询 mc.hypixel.net 服务器状态
-- `/server 11.22.33.44 25566` - 查询 11.22.33.44:25565 服务器状态
-
 ## /help
 描述: 查看此指令列表<br>
 用法: `/help`

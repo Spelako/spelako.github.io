@@ -5,4 +5,4 @@ Spelako 是一个提供查询玩家 Hypixel 统计数据等功能机器人.
 
 [指令列表](help.md)
 [更新日志](changelogs.md)
-[了解更多](howspelakoworks.md)
+[开发者文档](deploy.md)
