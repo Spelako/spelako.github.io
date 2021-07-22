@@ -11,7 +11,19 @@
 - `/hypixel iTMG sw` - 查询 iTMG 的 Skywars 统计数据
 - `/hypixel hypixel g` - 查询 hypixel 的公会信息
 
-?> **分类**可以是下列之一:<br>- bedwars, bw<br>- skywars, sw<br>- uhc<br>- megawalls, mw<br>- blitzsg, bsg, hungergames<br>- guild, g<br>- skyblock, sb
+?> **分类**可以是下列之一:<br>- bedwars, bw<br>- skywars, sw<br>- uhc<br>- megawalls, mw<br>- blitzsg, bsg, hungergames<br>- guild, g<br>- zombies, zb<br>- skyblock, sb
+
+### Zombies 查询
+描述: 查询玩家在 Zombies 中全部地图全部难度, 指定地图全部难度或指定地图指定难度的统计信息
+用法: `/hypixel <玩家> zb <地图名> [难度]`
+示例:
+- `/hypixel Peaksol zb` - 查询 Peaksol 在全部地图全部难度的统计信息
+- `/hypixel Bzake zb aa` - 查询 Bzake 在外星游乐园地图全部难度的统计信息
+- `/hypixel Typhoon_Alex zb de norm` - 查询 Typhoon_Alex 在穷途末路地图普通难度的统计信息
+
+?> **地图名**可以是下列之一:<br>- deadEnd, de<br>- badBlood, bb<br>- alienArcadium, aa
+
+?> **难度**可以是下列之一:<br>- normal, norm<br>- hard<br>- rip
 
 ### Skyblock 查询
 #### 主指令
