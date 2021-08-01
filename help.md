@@ -90,7 +90,7 @@
 ### 僵尸末日查询
 描述: 查询玩家在 Hypixel 僵尸末日中的统计信息
 
-用法: `/hypixel <玩家> zb [地图] [难度]`
+用法: `/hypixel <玩家> zombies [地图] [难度]`
 
 <details>
 <summary>可选地图</summary>
