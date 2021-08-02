@@ -10,6 +10,7 @@
 <summary>可选分类</summary>
 
 - guild, g (公会)
+- recent, r (最近的游戏)
 - bedwars, bw (起床战争)
 - skywars, sw (空岛战争)
 - uhc (极限生存冠军)
