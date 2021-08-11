@@ -28,15 +28,15 @@
 
 - `/hypixel Peaksol` - 查询 <u>Peaksol</u> 的基本信息
 - `/hypixel Technoblade g` - 查询 <u>Technoblade</u> 的<u>公会</u>信息
-- `/hypixel iTMG sw` - 查询 <u>iTMG</u> 的<u>空岛战争</u>统计数据
-- `/hypixel BedlessNoob bedwars` - 查询 <u>BedlessNoob</u> 的<u>起床战争</u>统计数据
-- `/hypixel Dual megawalls` - 查询 <u>Dual</u> 的<u>超级战墙</u>统计数据
+- `/hypixel iTMG sw` - 查询 <u>iTMG</u> 的<u>空岛战争</u>统计信息
+- `/hypixel BedlessNoob bedwars` - 查询 <u>BedlessNoob</u> 的<u>起床战争</u>统计信息
+- `/hypixel Dual megawalls` - 查询 <u>Dual</u> 的<u>超级战墙</u>统计信息
 
 </details>
 
 ?> `/hyp` 是此命令的别名. 你可以直接使用 `/hyp` 来替换 `/hypixel`.
 
-?> **空岛生存**和**僵尸末日**的查询方法在下文有详细说明.
+?> 部分分类的查询方法在下文有详细说明.
 
 ### 空岛生存查询
 #### 查询存档列表
@@ -57,7 +57,7 @@
 #### 查询技能等级
 描述: 查询玩家存档中各技能的等级
 
-用法: `/hypixel <玩家> skyblock skills [存档名/序号]`
+用法: `/hypixel <玩家> sb skills [存档名/序号]`
 
 <details>
 <summary>使用示例</summary>
@@ -100,7 +100,7 @@
 - badblood, bb (坏血之宫)
 - alienarcadium, aa (外星游乐园)
 
-?> 如果留空, 将显示玩家所有地图的统计数据.
+?> 如果留空, 将显示玩家所有地图的统计信息.
 
 </details>
 
@@ -111,7 +111,7 @@
 - hard (困难)
 - rip (安息)
 
-?> 如果留空, 将显示玩家所有难度的统计数据.
+?> 如果留空, 将显示玩家所有难度的统计信息.
 
 </details>
 
@@ -125,6 +125,46 @@
 </details>
 
 ?> `zb` 是参数 `zombies` 的别名. 你可以直接使用 `zb` 来替换 `zombies`.
+
+### 起床战争查询
+描述: 查询玩家在 Hypixel 起床战争中的统计信息
+
+用法: `/hypixel <玩家> bedwars [模式]`
+
+<details>
+<summary>可选模式</summary>
+
+- eight_one, 8_1, solo (单挑模式)
+- eight_two, 8_2, doubles (双人模式)
+- four_three, 4_3, 3v3v3v3 (3v3v3v3 模式)
+- four_four, 4_4, 4v4v4v4 (4v4v4v4 模式)
+- two_four, 2_4,  4v4 (4v4 模式)
+- eight_two_rush, 8_4_rush, doubles_rush (双人疾速模式)
+- four_four_rush, 4v4v4v4_rush (4v4v4v4 疾速模式)
+- eight_two_ultimate, eight_two_ult, 8_2_ult, doubles_ultimate, doubles_ult (双人超能力模式)
+- four_four_ultimate, four_four_ult, 4_4_ult, 4v4v4v4_ultimate, 4v4v4v4_ult (4v4v4v4 超能力模式)
+- castle (40v40 城池攻防战模式)
+- eight_two_voidless, eight_two_void, 8_2_void, doubles_voidless, double_void (双人无虚空模式)
+- four_four_voidless, four_four_void, 4_4_void, 4v4v4v4_voidless, 4v4v4v4_void (4v4v4v4 无虚空模式)
+- eight_two_armed, 8_2_armed, doubles_armed (双人枪械模式)
+- four_four_armed, 4_4_armed, 4v4v4v4_armed (4v4v4v4 枪械模式)
+- eight_two_lucky, 8_2_lucky, doubles_lucky (双人幸运方块模式)
+- four_four_lucky, 4_4_lucky, 4v4v4v4_lucky (4v4v4v4 幸运方块模式)
+
+?> 如果留空, 将显示玩家全局统计信息.
+
+</details>
+
+<details>
+<summary>使用示例</summary>
+
+- `/hypixel Hashito bw` - 查询 <u>Hashito</u> 的全局统计信息
+- `/hypixel gamerboy80 four_four` - 查询 <u>gamerboy80</u> 的 <u>4v4 模式统计信息</u>
+- `/hypixel Chapeey doubles` - 查询 <u>Chapeey</u> 的 <u>双人模式统计信息</u>
+
+</details>
+
+?> `bw` 是参数 `bedwars` 的别名. 你可以直接使用 `bw` 来替换 `bedwars`.
 
 ## /syuu
 ### 查询玩家排位信息

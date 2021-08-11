@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Spelako</title>
+	<title>Spelako 文档</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<meta charset="UTF-8">
@@ -21,6 +21,7 @@
 			auto2top: true,
 			loadSidebar: 'sidebar.md',
 			notFoundPage: '404.md',
+			subMaxLevel: 2,
 			coverpage: 'coverpage.md',
 			name: 'Spelako 文档',
 			search: {
@@ -28,15 +29,12 @@
 				noData: '无结果',
 			}
 		}
-
-		function self(url) {
-			window.open(url, '_self');
-		}
 	</script>
 	<nav style="cursor:pointer">
 		<ul><li><a href="https://github.com/Spelako" target="_blank">GitHub</a></li></ul>
 	</nav>
 	<script src="https://cdn.bootcss.com/docsify/4.9.4/docsify.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+	<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-php.min.js"></script>
 </body>
 </html>
