@@ -70,7 +70,7 @@ SpelakoUtils 中的更多方法可以在源码中查看.
 ### FileSystem
 `FileSystem` 类提供与文件系统交互的统一方式. Spelako 项目的所有地方都统一使用此方法来与访问文件系统.
 
-SpelakoUtils 中的所有方法可以在源码中查看.
+FileSystem 中的所有方法可以在源码中查看.
 
 ## 命令
 一条 Spelako 命令是一个存储在 `commands` 目录下的文件, 它的结构如下;
