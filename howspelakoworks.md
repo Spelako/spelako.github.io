@@ -4,7 +4,7 @@
 ## 主类 (入口)
 要使用 Spelako, 首先需要载入 Spelako 的主类 `Spelako.php`. Spelako 主类是一个静态类, 并且在仅载入主类时不会做任何事 (仅会引用 `utils` 目录下的工具类). 此时使用任何命令是无效的.
 
-要载入所有可用的命令, 需要使用 `Spelako::loadCommands()` 方法. 此方法会引用 `commands` 目录下的所有文件, 此目录下的每个文件都是一个独立的命令 (类). 已经加载的命令的列表可以通过 `Spelako::getCommandList` 方法获取.
+要载入所有可用的命令, 需要使用 `Spelako::loadCommands()` 方法. 此方法会引用 `commands` 目录下的所有文件, 此目录下的每个文件都是一个独立的命令 (类). 已经加载的命令的列表可以通过 `Spelako::getCommandList()` 方法获取.
 
 在载入了所有可用的命令后, 使用 `Spelako::execute()` 方法即可执行指定的 Spelako 命令. 由于 Spelako 自带命令冷却功能, 所有带冷却命令的执行记录和冷却判断都会在主类完成. 用户执行带冷却命令的记录列表可以通过 `Spelako::getUserLastExecutions()` 获取.
 
