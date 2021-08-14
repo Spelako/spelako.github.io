@@ -128,15 +128,15 @@ class PunishmentsCommand {
 					$decoded['staff_total']
 				]);
 			default:
-			return SpelakoUtils::buildString([
-				'Hypixel 封禁玩家数:',
-				'今日: %1$d',
-				'总计: %2$d',
-				'使用 /bans wd 或 /bans staff 查看详细信息.'
-			], [
-				$decoded['watchdog_rollingDaily'] + $decoded['staff_rollingDaily'],
-				$decoded['watchdog_total'] + $decoded['staff_total'],
-			]);
+				return SpelakoUtils::buildString([
+					'Hypixel 封禁玩家数:',
+					'今日: %1$d',
+					'总计: %2$d',
+					'使用 /bans wd 或 /bans staff 查看详细信息.'
+				], [
+					$decoded['watchdog_rollingDaily'] + $decoded['staff_rollingDaily'],
+					$decoded['watchdog_total'] + $decoded['staff_total'],
+				]);
 		}
 	}
 }
