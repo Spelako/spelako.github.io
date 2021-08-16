@@ -57,7 +57,7 @@ php cli.php
 | 参数名 | 注释 |
 | - | - |
 | command | 传入的命令, 以 `/` 开头 |
-| user | 执行者的用户 ID, 用于 Spelako 区分不用用户 |
+| user | 执行者的用户 ID, 用于 Spelako 区分不同用户 |
 
 请求 URL 示例:
 - http://localhost/api.php?command=/help&user=1244050218
