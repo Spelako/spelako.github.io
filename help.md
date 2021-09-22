@@ -13,11 +13,14 @@
 - recent, r (最近的游戏)
 - bedwars, bw (起床战争)
 - skywars, sw (空岛战争)
+- mudermystery, mm (密室杀手)
 - uhc (极限生存冠军)
 - mewagalls, mw (超级战墙)
 - blitzsg, bsg, hungergames (闪电饥饿游戏)
 - skyblock, sb (空岛生存)
 - zombies, zb (僵尸末日)
+- parkour, p (跑酷)
+
 
 ?> 如果留空, 将显示玩家的 Hypixel 基本信息.
 
@@ -159,12 +162,111 @@
 <summary>使用示例</summary>
 
 - `/hypixel Hashito bw` - 查询 <u>Hashito</u> 的全局统计信息
-- `/hypixel gamerboy80 four_four` - 查询 <u>gamerboy80</u> 的 <u>4v4 模式统计信息</u>
-- `/hypixel Chapeey doubles` - 查询 <u>Chapeey</u> 的 <u>双人模式统计信息</u>
+- `/hypixel gamerboy80 bw four_four` - 查询 <u>gamerboy80</u> 的 <u>4v4 模式统计信息</u>
+- `/hypixel Chapeey bw doubles` - 查询 <u>Chapeey</u> 的 <u>双人模式统计信息</u>
 
 </details>
 
 ?> `bw` 是参数 `bedwars` 的别名. 你可以直接使用 `bw` 来替换 `bedwars`.
+
+### 密室杀手查询
+描述: 查询玩家在 Hypixel 密室杀手中的统计信息
+
+用法: `/hypixel <玩家> mudermystery [模式序号 / 地图序号 / 模式+地图序号]`
+
+<details>
+<summary>可选模式序号</summary>
+
+1. 经典模式
+2. 双倍模式
+3. 刺客模式
+4. 感染模式
+
+</details>
+
+<details>
+<summary>可选地图序号</summary>
+
+- a (古墓)
+- b (水族馆)
+- c (档案馆)
+- d (档案馆顶层)
+- e (游轮)
+- f (Darkfall)
+- g (淘金热)
+- h (总部)
+- i (好莱坞)
+- j (Hypixel 游乐园)
+- k (图书馆)
+- l (Mountain)
+- m (San Peratico v3)
+- n (Skyway Pier)
+- o (Snowfall)
+- p (雪景球)
+- q (Subway)
+- r (高坠塔)
+- s (运输塔)
+- t (Vilia)
+- u (寡妇的书房)
+
+</details>
+
+<details>
+<summary>使用示例</summary>
+
+- `/hypixel Tioxic mm` - 查询 <u>Tioxic</u> 在<u>全部</u>模式<u>全部</u>地图的统计信息
+- `/hypixel Cencioh mm 3` - 查询 <u>Cencioh</u> 在<u>刺客</u>模式<u>全部</u>地图的统计信息
+- `/hypixel zihyin mm b` - 查询 <u>zihyin</u> 在<u>全部</u>模式<u>水族馆</u>地图的统计信息
+- `/hypixel Sam mm 2i` - 查询 <u>Sam</u> 在<u>双倍</u>模式<u>好莱坞</u>地图的统计信息
+
+</details>
+
+?> `mm` 是参数 `murdermystery` 的别名. 你可以直接使用 `mm` 来替换 `mudermystery`.
+
+### 跑酷查询
+描述: 查询玩家在 Hypixel 小游戏大厅的跑酷记录
+
+用法: `/hypixel <玩家> parkour [序号]`
+
+<details>
+<summary>可选序号</summary>
+
+1. 主大厅 2017
+2. 起床战争
+3. 空岛战争
+4. 空岛战争 2017.8
+5. 街机游戏
+6. 密室杀手
+7. 掘战游戏
+8. 极限生存冠军
+9. 游戏实验室
+10. 建筑大师
+11. 家园世界
+12. True PVP Parkour
+13. 超级战墙
+14. 闪电饥饿游戏
+15. 战争领主
+16. 星碎英雄
+17. 警匪大战
+18. 决斗游戏
+19. 经典游戏
+20. 空岛竞技场
+21. 竞赛殿堂
+
+?> 如果留空, 将显示玩家全部跑酷记录.
+
+</details>
+
+<details>
+<summary>使用示例</summary>
+
+- `/hypixel Akasha parkour` - 查询 <u>Akasha</u> 的全部跑酷记录
+- `/hypixel Maax parkour 3` - 查询 <u>Maax</u> 的 <u>空岛战争大厅跑酷记录</u>
+- `/hypixel MITE123 p 18` - 查询 <u>MITE123</u> 的 <u>决斗游戏大厅跑酷记录</u>
+
+</details>
+
+?> `p` 是参数 `parkour` 的别名. 你可以直接使用 `p` 来替换 `parkour`.
 
 ## /syuu
 ### 查询玩家排位信息
