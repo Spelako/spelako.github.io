@@ -1,4 +1,4 @@
-# 开始
+# 开始 <!-- {docsify-ignore-all} -->
 欢迎访问 Spelako 文档. 此页将引导你找到所有关于 Spelako 的信息.
 
 ## 关于 Spelako
