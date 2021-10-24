@@ -14,6 +14,7 @@
 - bedwars, bw (起床战争)
 - skywars, sw (空岛战争)
 - mudermystery, mm (密室杀手)
+- duels, duel (决斗游戏)
 - uhc (极限生存冠军)
 - mewagalls, mw (超级战墙)
 - blitzsg, bsg, hungergames (闪电饥饿游戏)
@@ -168,6 +169,9 @@
 </details>
 
 ?> `bw` 是参数 `bedwars` 的别名. 你可以直接使用 `bw` 来替换 `bedwars`.
+
+### 决斗游戏查询
+此部分文档正在编写中...
 
 ### 密室杀手查询
 描述: 查询玩家在 Hypixel 密室杀手中的统计信息
