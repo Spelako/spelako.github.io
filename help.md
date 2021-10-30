@@ -171,7 +171,50 @@
 ?> `bw` 是参数 `bedwars` 的别名. 你可以直接使用 `bw` 来替换 `bedwars`.
 
 ### 决斗游戏查询
-此部分文档正在编写中...
+描述: 查询玩家在 Hypixel 决斗游戏中的统计信息
+
+用法: `/hypixel <玩家> duels [模式]`
+
+<details>
+<summary>可选模式</summary>
+
+- classic_duel, classic (经典决斗)
+- sw_duel, sw (空岛战争决斗)
+- sw_doubles (空岛战争决斗双人决斗)
+- bow_duel, bow (弓箭决斗)
+- uhc_duel, uhc (极限生存决斗)
+- uhc_doubles (极限生存冠军双人决斗)
+- uhc_four (极限生存冠军四人决斗)
+- uhc_meetup (极限生存冠军死亡竞赛决斗)
+- potion_duel, potion, nodebuff (药水决斗)
+- combo_duel, combo (连击决斗)
+- op_duel, op (高手决斗)
+- op_doubles (高手双人决斗)
+- mw_duel, mw (超级战墙决斗)
+- mw_doubles (超级战墙双人决斗)
+- sumo_duel, sumo (相扑决斗)
+- blitz_duel, blitz (闪电饥饿游戏决斗)
+- bowspleef_duel, bowspleef (掘一死箭决斗)
+- bridge_duel, bridge (战桥决斗)
+- bridge_doubles (战桥双人决斗)
+- bridge_four (战桥四人决斗)
+- bridge_2v2v2v2 (战桥 2v2v2v2 决斗)
+- bridge_3v3v3v3 (战桥 4v4v4v4 决斗)
+
+?> 如果留空, 将显示玩家全局统计信息.
+
+</details>
+
+<details>
+<summary>使用示例</summary>
+
+- `/hypixel Slynn duels` - 查询 <u>Slynn</u> 的全局统计信息
+- `/hypixel KissMyL duels sw` - 查询 <u>KissMyL</u> 的<u>空岛战争决斗统计信息</u>
+- `/hypixel Sios duel sumo` - 查询 <u>Sios</u> 的<u>相扑决斗统计信息</u>
+
+</details>
+
+?> `duel` 是参数 `duels` 的别名. 你可以直接使用 `duel` 来替换 `duels`.
 
 ### 密室杀手查询
 描述: 查询玩家在 Hypixel 密室杀手中的统计信息
