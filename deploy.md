@@ -31,7 +31,7 @@ Spelako::loadCommands();
 Spelako::execute(string $command, string $user): string
 ```
 
-参数 `$command` 为传入的命令, 以 `/` 开头. 参数 `$user` 为执行者的用户 ID, 用于 Spelako 区分不用用户. 方法返回值为执行结果 (字符串).
+参数 `$command` 为传入的命令, 以 `/` 开头. 参数 `$user` 为执行者的用户 ID, 用于 Spelako 区分不同用户. 方法返回值为执行结果 (字符串).
 
 ### 附带的示例
 在你获取的 Spelako 后端项目中, 附带了实现上文的简单示例. 以下是关于它们的进一步说明.
