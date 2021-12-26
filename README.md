@@ -8,6 +8,8 @@ Spelako 是一个使用命令操作的交互式机器人, 提供 Hypixel 统计�
 
 如果你在使用 Spelako 时遇到问题, 或有一个关于新功能的建议, 请前往 Spelako Project 的 [GitHub Issues](https://github.com/Spelako/Spelako/issues) 或 [QQ 群](https://jq.qq.com/?_wv=1027&k=u9ce15aa).
 
+Spelako 的开发使用到了一些优秀项目, 也有其他项目受到 Spelako Project 的启发. 我们建议你也看一看[这些项目](seealso.md).
+
 ## 开发者文档
 Spelako 的源代码可以在 [GitHub](https://github.com/Spelako) 上获取. 在传播和/或修改 Spelako Project 下的软件时, 请遵守该软件使用的许可证.
 
