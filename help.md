@@ -22,7 +22,6 @@
 - zombies, zb (僵尸末日)
 - parkour, p (跑酷)
 
-
 ?> 如果留空, 将显示玩家的 Hypixel 基本信息.
 
 </details>
