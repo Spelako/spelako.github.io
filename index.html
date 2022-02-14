@@ -16,10 +16,69 @@
 			border-radius: 4px;
 			padding: 16px;
 			margin-bottom: 8px;
+			cursor: pointer;
 		}
 		details > .warn {
 			background-color: rgb(22, 31, 36) !important;
 			margin: 0 !important;
+		}
+		.headlines {
+			text-align: center;
+		}
+		.chat-box {
+			background-color: #1F282D;
+			border-radius: 8px;
+			box-shadow: 0px 0px 32px #00000059;
+			margin-bottom: 2rem;
+		}
+		.chat-title {
+			border-top-left-radius: 8px;
+			border-top-right-radius: 8px;
+			padding-top: .5rem;
+			padding-bottom: .5rem;
+			text-align: center;
+			background-color: #161F24;
+		}
+		.chat-contents {
+			padding: 1rem;
+			height: 50vh;
+			overflow-y: scroll;
+		}
+		.chat-msg-sent {
+			overflow: hidden;
+			margin-bottom: 1rem;
+		}
+		.chat-msg-sent > div {
+			background-color: #0B87DA;
+			border-radius: 8px;
+			float: right;
+			border-top-right-radius: 0;
+			padding: .5rem;
+		}
+		.chat-msg-recv {
+			background-color: #34434B;
+			border-radius: 8px;
+			width: fit-content;
+			border-top-left-radius: 0;
+			padding: .5rem;
+			margin-bottom: 1rem;
+		}
+		.card {
+			background-color: #1F282D;
+			border-radius: 8px;
+			padding: 16px;
+			margin-bottom: 1rem;
+			cursor: pointer;
+		}
+		.card-title {
+			font-size: 1.25rem;
+		}
+		.card-desc {
+			font-size: .85rem;
+		}
+		.card:hover {
+			transition-duration: .2s;
+			background-color: #34434B;
 		}
 	</style>
 </head>
@@ -32,15 +91,18 @@
 			loadSidebar: 'sidebar.md',
 			notFoundPage: '404.md',
 			subMaxLevel: 2,
+			noEmoji: true,
 			name: 'Spelako 文档',
 			search: {
 				placeholder: '在文档中搜索',
 				noData: '无结果',
 			}
-		}
+		};
 	</script>
+
 	<script src="https://cdn.jsdelivr.net/npm/docsify@4.12.2/lib/docsify.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-php.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-yaml.min.js"></script>
 </body>
 </html>
