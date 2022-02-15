@@ -60,7 +60,7 @@
 			[Bridge] Elo: 980 | 胜: 0 | 败: 1<br>
 			[Boxing] Elo: 1020 | 胜: 1 | 败: 0
 		</div>
-		<div class="chat-msg-sent"><div>/mc Peakosl</div></div>
+		<div class="chat-msg-sent"><div>/mc Peaksol</div></div>
 		<div class="chat-msg-recv">
 			根据提供的 ID 查找到的 Minecraft 账户信息:<br>
 			UUID: 2e951afe18f241e1ae021667f39e4f5b<br>
@@ -78,7 +78,7 @@
 	<div class="card-desc">了解 Spelako 的全部可用功能</div>
 </div>
 
-<div class="card" onclick="window.location.href = '#deploy'">
+<div class="card" onclick="window.location.href = '#deploy3'">
 	<div class="card-title">部署</div>
 	<div class="card-desc">在终端使用 Spelako, 或对接 Spelako 到其他平台</div>
 </div>
