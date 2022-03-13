@@ -17,6 +17,8 @@ Spelako 前端 <-----> 用户接口
 
 下文将详细引导你完成这些步骤.
 
+!> 这里有一个基于本文档的[视频教程](https://www.bilibili.com/video/BV1cb4y1s77m), 可以指导你在 QQ 上搭建本机器人.
+
 ## 安装 PHP 8
 Spelako 使用 PHP 编写. 你需要安装 PHP 8 才能运行 Spelako 前后端. 你不必为此安装一个完整的 Web 服务器环境.
 
@@ -126,11 +128,11 @@ account: # 账号相关
 ```yaml
 servers:
   - http:
-    host: 127.0.0.1
-    port: 5700
-    timeout: 15
-    post:
-     - url: 'http://127.0.0.1:5701'
+      host: 127.0.0.1
+      port: 5700
+      timeout: 15
+      post:
+      - url: 'http://127.0.0.1:5701'
 ```
 
 最后, 重新启动 go-cqhttp, 并在 SpelakoOne 目录运行 `start.bat` 或 `start.sh` 来启动 SpelakoOne, 即可将 Spelako 与此 OneBot 实现对接.
