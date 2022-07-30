@@ -1,6 +1,6 @@
-?> 此文档适用于最新的 Spelako 3.x 版本 (包括 22w07a). 如果你仍想查看如何部署 Spelako 2.x, 请点击[这里](deploy2).
+?> 此文档适用于最新的 Spelako 3.x 版本 (包括 22w07a, 22w30a). 如果你仍想查看如何部署 Spelako 2.x, 请点击[这里](deploy2).
 # 部署 Spelako
-Spelako 由后端和前端组成. 后端为 [SpelakoCore](https://github.com/Spelako/SpelakoCore/), 是 Spelako 的核心代码, 包括了 Spelako 所有的命令及命令管理器. 前端可以是 [SpelakoCLI](https://github.com/Spelako/SpelakoCLI/), [SpelakoMAHA](https://github.com/Spelako/SpelakoMAHA/), [SpelakoOne](https://github.com/Spelako/SpelakoOne/) 等, 负责连接后端, 并与不同的用户接口 (QQ 等) 对接.
+Spelako 由后端和前端组成. 后端为 [SpelakoCore](https://github.com/Spelako/SpelakoCore/), 是 Spelako 的核心代码, 包括了 Spelako 所有的命令及命令管理器. 前端可以是 [SpelakoCLI](https://github.com/Spelako/SpelakoCLI/), [SpelakoOne](https://github.com/Spelako/SpelakoOne/) 等, 负责连接后端, 并与不同的用户接口 (QQ 等) 对接.
 
 ```
 SpelakoCore           用户
@@ -17,7 +17,7 @@ Spelako 前端 <-----> 用户接口
 
 下文将详细引导你完成这些步骤.
 
-!> 这里有一个基于本文档的[视频教程](https://www.bilibili.com/video/BV1cb4y1s77m), 可以指导你在 QQ 上搭建本机器人.
+?> 这里有一个基于本文档的[视频教程](https://www.bilibili.com/video/BV1cb4y1s77m), 可以指导你在 QQ 上搭建本机器人.
 
 ## 安装 PHP 8
 Spelako 使用 PHP 编写. 你需要安装 PHP 8 才能运行 Spelako 前后端. 你不必为此安装一个完整的 Web 服务器环境.
@@ -46,13 +46,13 @@ Zend Engine v4.1.2, Copyright (c) Zend Technologies
 
 
 ### GNU/Linux 用户
-我们认为, 如果你是 GNU/Linux 用户, 那么你已经有了不少的技术操作能力. 请自行通过搜索引擎了解如何使用你的发行版的包管理器安装 PHP 8.
+我们认为, 如果你是 GNU/Linux 用户, 那么你已经有了不少的技术操作能力. 请自行通过搜索引擎了解如何使用你的发行版的包管理器安装 PHP 8. 你*可能*还需要安装适用于 PHP 8 的 curl 库.
 
 ## 安装 SpelakoCore
-要安装 SpelakoCore, 只需从其 [Releases](https://github.com/Spelako/SpelakoCore/releases) 页面获取 SpelakoCore 的最新版本 (当前为 `22w07a`). 将下载的压缩文件解压至任意目录即可.
+要安装 SpelakoCore, 只需从其 [Releases](https://github.com/Spelako/SpelakoCore/releases) 页面获取 SpelakoCore 的最新版本 (当前为 `22w30a`). 将下载的压缩文件解压至任意目录即可.
 
 ## 安装 Spelako 前端
-Spelako 有不同的前端. 不同的前端用于不同的用户接口. 如果你希望在命令行界面直接使用 Spelako, 请安装 SpelakoCLI. 如果你希望将 Spelako 部署为 QQ 机器人, 请使用 SpelakoMAHA. 除此之外, 你也可以使用 SpelakoOne 对接 OneBot, 一个聊天机器人接口标准 (其中也有 QQ 机器人框架支持).
+Spelako 有不同的前端; 不同的前端用于不同的用户接口. 如果你希望在命令行界面直接使用 Spelako, 请安装 SpelakoCLI. 除此之外, 你也可以使用 SpelakoOne 对接 OneBot, 一个聊天机器人接口标准 (其中有 QQ 机器人框架支持).
 
 ### 安装 SpelakoCLI
 SpelakoCLI 允许你在命令行界面中使用 Spelako.
@@ -62,35 +62,6 @@ SpelakoCLI 允许你在命令行界面中使用 Spelako.
 Windows 的启动脚本为 `start.bat`, GNU/Linux 的启动脚本为 `start.sh`. 请编辑适用于你的操作系统的启动脚本: 在 `--core` 参数填入 SpelakoCore 的路径, 使其指向 `SpelakoCore.php`.
 
 运行 `start.bat` 或 `start.sh` 即可开始在命令行界面使用 Spelako.
-
-### 安装 SpelakoMAHA
-SpelakoMAHA 允许你将 Spelako 部署为一个 QQ 机器人, 它通过 HTTP 的方式与 QQ 机器人框架 [mirai](https://github.com/mamoe/mirai) 交互. 要以这种方式部署 Spelako, 你需要安装 SpelakoMAHA 和带有 mirai-api-http 插件的 mirai.
-
-首先, 需要安装 mirai 环境. 获取 mcl-installer 的最新 [Release](https://github.com/iTXTech/mcl-installer/releases), 将其放在任意目录并运行, 跟随程序指引, 即可安装好 mirai 环境. 下次启动 mirai 只需使用 `./mcl`.
-
-然后, 在 mirai 所在目录运行 `./mcl --update-package net.mamoe:mirai-api-http --channel stable-v2 --type plugin` 以添加 mirai-api-http 插件. 再次启动 `./mcl` 便会自动安装 mirai-api-http 插件并生成配置. 请在目录下的 `config/net.mamoe.mirai-api-http/setting.yml` 文件中使用以下配置 (修改后请重启 mirai):
-
-```yaml
-adapters: 
-  - http
-debug: false
-enableVerify: true
-# 填写一个 verifyKey, 用于 SpelakoMAHA 与 mirai-api-http 验证
-verifyKey: XXXXXXXXXX
-singleMode: false
-cacheSize: 4096
-adapterSettings:
-  http:
-    host: localhost
-    port: 8080
-    cors: [*]
-```
-
-接着, 在 SpelakoMAHA 的 [Releases](https://github.com/Spelako/SpelakoCLI/releases) 页面获取 SpelakoMAHA 的最新版本, 并将其解压在任意目录 (不一定需要和 SpelakoCore 在同一目录). 在 `config.json` 中修改你可能需要修改的部分 (例如你的 Hypixel API Key).
-
-Windows 的启动脚本为 `start.bat`, GNU/Linux 的启动脚本为 `start.sh`. 请编辑适用于你的操作系统的启动脚本: 在 `--core` 参数填入 SpelakoCore 的路径, 使其指向 `SpelakoCore.php`; 在 `--verify-key` 参数填入你刚刚为 mirai-api-http 设置的 verifyKey; 在 `--qq` 参数填入你的机器人的 QQ 号码.
-
-最后, 在 mirai 控制台中使用 `/login <账号> [密码]` 登录一个 QQ 账号, 然后在 SpelakoMAHA 目录运行 `start.bat` 或 `start.sh` 来启动 SpelakoMAHA, 即可将 Spelako 与 QQ 对接.
 
 ### 安装 SpelakoOne
 SpelakoOne 是 Spelako 的一个前端, 适用于 [OneBot](https://onebot.dev/) 实现. OneBot 不是一个具体的机器人框架, 而是一个聊天机器人应用接口标准. 理论上, SpelakoOne 可以与任何实现了 OneBot 标准的机器人框架对接.
