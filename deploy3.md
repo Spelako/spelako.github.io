@@ -98,12 +98,13 @@ account: # 账号相关
 
 ```yaml
 servers:
-  - http:
-      host: 127.0.0.1
-      port: 5700
+  - http: # HTTP 通信设置
+      address: 0.0.0.0:5700
       timeout: 15
       post:
       - url: 'http://127.0.0.1:5701'
 ```
+
+?> 注意: 此文档撰写时, go-cqhttp 的最新版本为 v1.0.0-rc3. 如果后续版本有向下不兼容的变更, 请参照最新版本的 go-cqhttp 的配置格式来编辑此部分配置.
 
 最后, 重新启动 go-cqhttp, 并在 SpelakoOne 目录运行 `start.bat` 或 `start.sh` 来启动 SpelakoOne, 即可将 Spelako 与此 OneBot 实现对接.
