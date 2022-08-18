@@ -68,7 +68,7 @@ SpelakoOne 是 Spelako 的一个前端, 适用于 [OneBot](https://onebot.dev/) 
 
 有许多机器人框架实现了 OneBot 标准, 例如 [go-cqhttp](https://github.com/Mrs4s/go-cqhttp), [onebot-kotlin](https://github.com/yyuueexxiinngg/onebot-kotlin) 和 [oicq](https://github.com/takayama-lily/oicq). 这里以 go-cqhttp 为例, 将 Spelako 对接到 QQ 平台.
 
-首先, 在 SpelakoOne 的 [Releases](https://github.com/Spelako/SpelakoCLI/releases) 页面获取 SpelakoOne 的最新版本, 并将其解压在任意目录 (不一定需要和 SpelakoCore 在同一目录). 在 `config.json` 中修改你可能需要修改的部分 (例如你的 Hypixel API Key).
+首先, 在 SpelakoOne 的 [Releases](https://github.com/Spelako/SpelakoOne/releases) 页面获取 SpelakoOne 的最新版本, 并将其解压在任意目录 (不一定需要和 SpelakoCore 在同一目录). 在 `config.json` 中修改你可能需要修改的部分 (例如你的 Hypixel API Key).
 
 Windows 的启动脚本为 `start.bat`, GNU/Linux 的启动脚本为 `start.sh`. 请编辑适用于你的操作系统的启动脚本: 在 `--core` 参数填入 SpelakoCore 的路径, 使其指向 `SpelakoCore.php`.
 
