@@ -7,6 +7,7 @@
 - **开发者文档**
   - [部署](deploy3)
   - [深入了解](howspelakoworks)
+  - [合规性指南](compliance)
 
 - **链接**
   - [GitHub](https://github.com/Spelako)
