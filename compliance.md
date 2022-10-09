@@ -1,5 +1,5 @@
 # Spelako 再分发合规性指南
-Spelako 是以 GNU AGPLv3 发布的软件. 因此, 在向他方分发其副本或将其部署为网络服务以供他方使用时, 需遵循 AGPLv3 许可证的条款.
+Spelako 是以 [GNU AGPLv3](https://www.gnu.org/licenses/agpl-3.0.html) 发布的软件. 因此, 在向他方分发其副本或将其部署为网络服务以供他方使用时, 需遵循 AGPLv3 许可证的条款.
 
 考虑到许多用户难以理解 AGPL 的原文, 我们编写了此指南, 以指导你合规地使用和分发 Spelako 软件 (下称 "本软件").
 
@@ -23,7 +23,7 @@ Spelako 是以 GNU AGPLv3 发布的软件. 因此, 在向他方分发其副本�
 | <div class=chat-box><div class=chat-title>示例 A</div><div class=chat-contents><div class=chat-msg-sent><div>/foobar</div></div><div class=chat-msg-recv>SpelakoCore 22w30a (2022/7/30)<br>本程序是自由软件, 以 AGPLv3 许可证发布.<br>欲获取帮助文档, 源代码, 作者及版权信息等,<br>请访问 &lt;https://spelako.github.io&gt;.<br><br>FooBar Bot 1.0.0 (2022/9/1)<br>本修改版由 Coder34 以 AGPLv3 发布.<br>源代码: https://github.com/coder34/foobar</div><div class=chat-msg-sent><div>/spelako</div></div><div class=chat-msg-recv>SpelakoCore 22w30a (2022/7/30)<br>本程序是自由软件, 以 AGPLv3 许可证发布.<br>欲获取帮助文档, 源代码, 作者及版权信息等,<br>请访问 &lt;https://spelako.github.io&gt;.<br><br>FooBar Bot 1.0.0 (2022/9/1)<br>本修改版由 Coder34 以 AGPLv3 发布.<br>源代码: https://github.com/coder34/foobar</div></div></div> | <div class=chat-box><div class=chat-title>示例 B</div><div class=chat-contents><div class=chat-msg-sent><div>/foobar</div></div><div class=chat-msg-recv>FooBar Bot 1.0.0 (2022/9/1)<br>本程序由 Coder34 以 AGPLv3 发布.<br>源代码: https://github.com/coder34/foobar<br>本程序基于 Spelako. 使用 /spelako 以获取上游信息.</div><div class=chat-msg-sent><div>/spelako</div></div><div class=chat-msg-recv>SpelakoCore 22w30a (2022/7/30)<br>本程序是自由软件, 以 AGPLv3 许可证发布.<br>欲获取帮助文档, 源代码, 作者及版权信息等,<br>请访问 &lt;https://spelako.github.io&gt;.</div></div></div> |
 		
 
-在源代码层面, 建议你在你修改过的文件的顶部注释处添加你的版权信息 (见示例 C). 你还须确保修改版的源代码中包含了一份 AGPLv3 的副本 (位于 LICENSE 文件), 并在 README 中说明本修改版以 AGPLv3 发布. 如果你不确定如何这么做, 请参考 SpelakoCore 源代码中的 LICENSE 文件和 README.md 文件中的 "许可证" 声明.
+在源代码层面, 建议你在你修改过的文件的顶部注释处添加你的版权信息 (见示例 C). 你还须确保修改版的源代码中包含了一份 AGPLv3 的副本 (位于 LICENSE 文件), 并在 README 中说明本修改版以 AGPLv3 发布. 如果你不确定如何这么做, 请参考 [SpelakoCore 源代码](https://github.com/Spelako/SpelakoCore)中的 LICENSE 文件和 README.md 文件中的 "许可证" 声明.
 
 ```示例 C
 /*
